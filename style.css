@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+}
+.background-color {
+  background-color: #45555d;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: large;
+}
+#navbarNav {
+  padding-left: 5%;
+}
+
+#navbarNav ul li a:hover {
+  transform: scale(1.02);
+  /* box-shadow: 0px 2px 0px 0px  black; */
+  transition: 0.5s;
+}
+
+#left {
+  /* width: 90%; */
+  /* height: 35vh; */
+  position: sticky;
+  transition: 1s;
+  /* margin-left: 50px;
+  margin-top: 10px; */
+  /* overflow: hidden;     */
+}
+#left:hover {
+  /* transform: scale(1.08);
+  box-shadow: 2px 2px 2px black; */
+}
+.image {
+  opacity: 1;
+  width: 125%;
+  padding-top: 30px;
+}
+.img-box {
+  /* padding-left: 50px; */
+  padding-right: 0%;
+}
+
+.box {
+  padding-left: 0;
+}
+#name {
+  padding-top: 150px;
+  padding-left: 15%;
+  color: #f68338;
+  font-size: xx-large;
+  /* text-align: center; */
+}
+#name2 {
+  padding: 0%;
+  margin-top: 0%;
+  padding-left: 25%;
+  font-size: large;
+}
+#personalInfo {
+  /* padding-top: 10px; */
+  padding-left: 18%;
+}
+
+.socialMedia {
+  margin-top: 0%;
+  /* border: 2px solid red; */
+}
+.socialMedia ol {
+  padding-left: 28%;
+  /* border: 2px solid green; */
+}
+.socialMedia ol li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  transition: 1s;
+  font-size: smaller;
+}
+
+.socialMedia ol li a i:hover {
+  transform: scale(1.1);
+  /* box-shadow: 0px 2px 0px 0px  black;  */
+  transition: 0.5s;
+}
+.bar {
+  position: relative;
+  width: 400px;
+  height: 17px;
+  background-color: ghostwhite;
+  border-radius: 1.5px;
+  /* overflow: hidden; */
+}
+
+.progress_fill {
+  width: 100%;
+  height: 100%;
+  background-color: #3496c8;
+  animation: fill 5s;
+  overflow: hidden;
+}
+/* #387e48 #bebebe*/
+.Progress_text {
+  color: #2c2a2a;
+  position: absolute;
+  top: 0%;
+  right: 5px;
+  font-size: smaller;
+}
+@keyframes fill {
+  from {
+    width: 0%;
+  }
+  to {
+    /* width:; */
+  }
+}
+.progress_bars ol {
+  list-style: none;
+}
+.progress_bars ol li {
+  margin-top: 15px;
+}
+
+.boxPadding {
+  padding-left: 50%;
+  /* padding: 10px;+ */
+}
+
+#navBar {
+  position: sticky;
+  z-index: 1;
+}
+
+.card {
+  height: 300px;
+}
+.card-block {
+  text-align: center;
+}
+.card-block h3 {
+  font-size: medium;
+}
+.adjust {
+  padding-top: 50px;
+  /* padding-left: 500px; */
+  text-align: center;
+}
+
+#button1 {
+  background-color: aqua;
+  color: black;
+}
+#button1:hover {
+  transform: scale(1.08);
+}
+
+.card {
+  width: 250px;
+  font-size: 16px;
+  color: white;
+  background-color: #5a6a72;
+}
+
+#card1:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+#card2:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+#card3:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+#card4:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+/* after button Click */
+.buttonColor1 {
+  background-color: #e7f2e5;
+  color: black;
+  transition: 1s;
+}
+.cardColor2 {
+  background-color: ghostwhite;
+  color: black;
+}
+.buttonColor2 {
+  background-color: #2c2a2a;
+  color: white;
+  transition: 1s;
+}
+.cardColor {
+  background-color: #4c4c4c;
+  color: white;
+}
